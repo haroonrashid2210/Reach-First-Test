@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #e2e2e2;
+  width: 400px;
+  padding: 0;
+  border-radius: 7px;
+  margin: 0;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 62px;
+  padding: 0 30px;
+  border-radius: 7px;
+}
+
+.day-container {
+  background: #d5d8da;
+  color: #adadad;
+  width: 160px;
+}
+
+.time-container {
+  background: #e2e2e2;
+  color: #adadad;
+}
+
+.active {
+  background-color: #016ab3;
+  color: white;
+}

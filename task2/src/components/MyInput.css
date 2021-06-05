@@ -1,0 +1,89 @@
+.select-box--box {
+  width: 400px;
+  position: relative;
+}
+
+.select-box--items {
+  border: 1px solid #dee2e6;
+  position: absolute;
+  border-radius: 7px;
+  width: 400px;
+  z-index: 1;
+}
+
+.select-box--items div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  padding-left: 20px;
+}
+
+.select-box--arrow {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  background: #dee2e6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.select-box--arrow-down {
+  border: solid #8c8c8c;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-bottom: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.select-box--arrow-up {
+  border: solid #8c8c8c;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-top: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.dropdown-item {
+  color: #999;
+}
+
+/* // For input  */
+
+.form-group {
+  border: 1px solid #dee2e6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.form-group > label {
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  color: #999;
+  font-family: "Actor";
+  font-weight: lighter;
+}
+
+.form-group > input {
+  border: none;
+}
+
+.form-control {
+  margin: 0px;
+  font-family: "Actor";
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}

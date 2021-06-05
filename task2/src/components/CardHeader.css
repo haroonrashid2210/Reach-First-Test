@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.heading {
+  color: #016ab3;
+  font-weight: 800px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
