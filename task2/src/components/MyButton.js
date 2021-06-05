@@ -1,3 +1,7 @@
+// This file defines the 3 buttons that are rendered based on what parameters are passed
+// these buttons are file upload, next and previous butons
+
+import { PausePresentationRounded } from "@material-ui/icons";
 import React from "react";
 
 const upload_icon = (

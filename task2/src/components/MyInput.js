@@ -1,3 +1,5 @@
+// This file is the Input i.e. TextField + dropdown
+
 import React, { useState } from "react";
 import "./MyInput.css";
 
@@ -8,7 +10,7 @@ const MyInput = ({
   required,
   fill,
   stateKey,
-  updateState,
+  updateState = () => {},
 }) => {
   const [open, setOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
