@@ -41,6 +41,10 @@ const MyInput = ({
             class="form-control input-lg"
             placeholder={placeholder}
             value={selectedItem == null ? "" : selectedItem}
+            onChange={(e) => {
+              updateState(stateKey, e.target.value);
+              setSelectedItem(e.target.value);
+            }}
           />
         </div>
       </form>
